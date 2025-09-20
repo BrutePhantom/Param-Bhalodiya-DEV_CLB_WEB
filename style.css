@@ -1,0 +1,48 @@
+body{background-image: url(./images/black-and-white-space-5oaf3j9bxsr20g5v.jpg);}
+
+.list{color: aliceblue;font-size:25px; background-color: black;border-radius: 20px;size: 25px;}
+
+a{color: aliceblue;text-decoration: none;}
+
+#outer{background-color: linear;color: rgb(255, 255, 255);font-size: x-large;}
+
+#all{font-family:"Bitcount Prop Double Ink";color: rgb(255, 255, 255);place-items: center;display: grid;font-size:75px;}
+
+#investigate{color: aliceblue;font-size: x-large;}
+
+#what{padding: 15px; margin: 10px;}
+
+#explore{padding:15px; margin: 10px}
+
+.list:hover {
+  background: #9000ff;
+}
+
+button:hover {
+  transform: scale(1.05);}
+
+#project{color: aquamarine;}
+
+.fos{color: rgb(255, 239, 239); font-size: x-large;}
+
+#exp{height:200px;border-radius: 20px;}
+
+#jup{height: 250px; border-radius:20px ;}
+
+#peen{background-color: rgb(39,39,39); margin: 10px; border-radius:20px ;padding: 20px;}
+
+#jupe{background-color: rgb(39,39,39);margin: 10px; border-radius:20px ;padding: 20px;}
+
+#os{background-color:rgb(39,39,39);margin: 5px; border-radius:20px ;padding: 10px;}
+
+#black{height: 250px;border-radius: 20px;}
+
+#spc{margin: 0px;padding: 0px; background-color: rgb(39,39,39);}
+
+#explor{background-color: rgb(39,39,39);}
+
+#waw{padding: 15px; margin: 10px;}
+
+#og{color: aliceblue;}
+
+#milk{height: 250px;border-radius: 20px;}
