@@ -6,6 +6,7 @@ header{
   justify-content: center;
   background-color: black;
   box-shadow: 5px 5px 5px rgb(232, 219, 31);
+  position: sticky;
 }
 
 *{
