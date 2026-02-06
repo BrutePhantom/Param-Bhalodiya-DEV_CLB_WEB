@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
-body{background-image: url(./images/black-and-white-space-5oaf3j9bxsr20g5v.jpg);}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  box-shadow: 5px 5px 5px rgb(232, 219, 31);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.bouncy{
+  background-color: greenyellow;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  z-index: 11;
+
+}
+
+.icon{
+  z-index: 11;
+  width: 50px;
+  height: 50px;
+}
+
+.nav{
+  z-index: 10;
+  position: absolute;
+  margin-top: 50px;
+}
+
+video{
+  width: 1550px;
+  position: relative;
+  z-index: -1;
+}
 
 .list{
   color: aliceblue;
@@ -7,6 +46,17 @@ body{background-image: url(./images/black-and-white-space-5oaf3j9bxsr20g5v.jpg);
   background-color: black;
   border-radius: 20px;
   size: 25px;}
+
+.list{
+  color: rgb(232, 219, 31);
+  transition: all 0.8s;
+}
+
+.list:hover {
+  background: #ffffff;
+  transform: scale(8px);
+  color: black;
+}
 
 a{
   color: aliceblue;
@@ -18,8 +68,7 @@ a{
   font-size: x-large;}
 
 #all{
-  font-family:"Bitcount Prop Double Ink";
-  color: rgb(255, 255, 255);
+  color: rgb(232, 219, 31);
   place-items: center;
   display: grid;
   font-size:75px;}
@@ -35,10 +84,6 @@ a{
 #explore{
   padding:15px; 
   margin: 10px}
-
-.list:hover {
-  background: #9000ff;
-}
 
 button:hover {
   transform: scale(1.05);}
@@ -95,3 +140,11 @@ button:hover {
 
 #milk{height: 250px;
   border-radius: 20px;}
+
+
+@keyframes bounce {
+    0% {top: 755px;}
+    50%{top:780px;}
+    100%{top:755px;}
+
+}
